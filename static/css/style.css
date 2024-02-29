@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif ;
+}
+
+
+#header{
+  height: 10vh;
+  background-color: #02d7a6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.49);
+
+}
+
+#header .logo{
+  font-size: 2rem;
+  color: #033b4d;
+}
+
+main{
+  margin: 13vh 13vw 8vh 13vw;
+}
+
+#form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#form .title{
+  color:#02d7a6;
+  font-size: 3rem;
+  margin-bottom: 8vh;
+}
+
+#form{
+  margin-top: 8vh;
+}
+
+.row{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  column-gap: 20px;
+  margin-bottom: 8vh;
+  width: 100%;
+}
+
+#form ._input label{
+  color: #58787a;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+#form ._input{
+  display: flex;
+  flex-direction: column;
+}
+
+#form ._input input{
+  width: 100%;
+  padding: 10px 0 5px 0;
+  border: none;
+  border-bottom: 1px solid #58787a;
+  outline: none;
+  font-size: 1.1rem;
+  color: #58787a;
+}
+
+#form ._input select{
+  padding: 10px 0 5px 0;
+  border: none;
+  border-bottom: 1px solid #58787a;
+  outline: none;
+  font-size: 1.1rem;
+  color: #58787a;
+}
+
+#form .btn-predict{
+  font-size: 1.5rem;
+  padding: 20px 50px;
+  background-color: #02d7a6;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: .25s;
+}
+
+#form .btn-predict:hover{
+  opacity: 0.9;
+}
