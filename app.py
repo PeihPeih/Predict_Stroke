@@ -11,7 +11,6 @@ model = pickle.load(open("model.pkl", "rb"))
 
 @app.route("/")
 def render():
-    print("HIEP")
     return render_template("index.html")
 
 
